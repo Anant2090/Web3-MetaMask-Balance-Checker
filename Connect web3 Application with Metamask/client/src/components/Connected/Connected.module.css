@@ -1,0 +1,47 @@
+
+.container
+{
+  background-color: antiquewhite;
+  border: 2px solid black;
+  height: 550px;
+  width: 425px;
+  
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px 2px black;
+  gap:10px;
+
+}
+.container .image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+  height: 120px;
+  border-radius: 50%;
+  width: 130px;
+  margin-top: 15px;
+}
+.tag
+{
+    margin: 0 auto;
+    width: 300px;
+    border: 2px solid rgb(21, 8, 202);
+    padding: 5px;
+    color: rgb(21, 8, 202);
+    font-weight: 800;
+}
+.tick
+{
+    background-color: red;
+    border-radius: 50%;
+    padding: 3px;
+}
+

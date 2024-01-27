@@ -1,0 +1,51 @@
+
+  .container
+  {
+    
+    border: 2px solid black;
+    height: 450px;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 2px black;
+  }
+  .hero{
+    height: 120px;
+    border-radius: 50%;
+    width: 130px;
+  }
+  
+  .ether
+  {
+    height: 130px;
+    width: 100px;
+  }
+  .connect_button
+  {
+    background-color: rgb(237, 20, 237);
+    padding: 10px;
+    width: 150px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius:15px ;
+    font-size: 15px;
+  
+  }
+
+  .connect_button:hover
+  {
+    opacity: 0.8;
+   
+    background-color: rgb(251, 21, 21);
+    padding: 10px;
+    width: 200px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+    
+  }

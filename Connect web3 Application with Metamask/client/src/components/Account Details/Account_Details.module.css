@@ -1,0 +1,25 @@
+.container {
+  border: 2px solid black;
+  height: 100%;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.Account {
+  padding-top: 10px;
+  padding-bottom: 11px;
+}
+.Account_Address {
+  padding-top: 10px;
+  padding-bottom: 11px;
+}
+
+.Balance {
+  padding-top: 10px;
+  padding-bottom: 11px;
+  
+}
+.Balance_value {
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
